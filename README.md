@@ -3,7 +3,7 @@
 The program is a real-time American Sign Language (ASL) recognition system focused on fingerspelling (spelling words letter by letter with hand shapes) and converting it to written text.
 
 
-# 🚀 Features
+# Features
 
 **Real-Time Hand Detection:** Uses MediaPipe Hands (from Google) to detect 21 hand landmarks accurately and quickly in live video.
 * **High Accuracy:** Trained for about 10-15 minutes on a GPU in Google Colab, achieving up to 99% accuracy on test data.
@@ -12,7 +12,7 @@ The program is a real-time American Sign Language (ASL) recognition system focus
 **User Interface:** Built using Gradio to provide a simple web interface that runs directly from Google Colab with a public shareable link.
 
 
-# 🧠 Technical Implementation
+# Technical Implementation
 
 **Dataset:** The model was trained on the popular Sign Language MNIST dataset, containing over 27,000 images of hands forming ASL letters from A to Y (J and Z are excluded as they require motion).
 **Model Architecture:** A Convolutional Neural Network (CNN) was built using TensorFlow/Keras. It consists of feature extraction layers (Conv2D + MaxPooling) and classification layers (Dense).
